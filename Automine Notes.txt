@@ -1,0 +1,37 @@
+Face 8 degrees N of NE (i.e. bearing 037 degrees)
+Fireplace corner: 3021m
+
+TP A: Cab 3020 + Slay 1511 or 1124 m (2 full EW tile lines)
+TP B: Cab 3022 + Slay 1509 or 1128 m (4 full EW tile lines, closer to fireplace)
+TP C: Cab 3023 + Slay 1508 or 1124 m (3.5 full EW tile lines)
+TP D: Cab 3026 + Slay 1505 or 1127 m (5.3 full EW tile lines)
+Distance between Caboose and Siayer (Keldrin) Packs: 3139 m
+
+
+Facing NNE
+
+KMine entrace between 3102 and 3104 m away
+
+Checkpoint 1: 3220 m
+
+Bridge edge: 3224 m
+Other side of bridge: 3232 m
+
+Checkpoint 2: 3246 m
+
+Ogre pit: 3183 m
+
+Base of shaft: 3147 m
+Top of shaft on ledge: 3154 m
+In position: 3154 m
+Up against spike: 3148 m
+
+Work out math for getting more accurate position from 2 packs instead of one
+#trackpack caboose
+#trackpack siayer
+
+Helper function ideas:
+
+Direction input mixer.
+	INPUTS: Desired bearing of travel (relative to current direction you are facing), pulse rate
+	OUTPUTS: Mixed on-off times for two travel directions
